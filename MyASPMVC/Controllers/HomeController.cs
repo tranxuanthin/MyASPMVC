@@ -27,10 +27,10 @@ namespace MyASPMVC.Controllers
             return View(thu1);
         }
 
-        public ActionResult Contact()
+        public ActionResult Contact(string a)
         {
-            ViewBag.Message = "Your contact page.";
-
+            ViewBag.Message = "Your contact page." + a ;
+             
             return View();
         }
     }

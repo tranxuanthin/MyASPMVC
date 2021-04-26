@@ -12,6 +12,12 @@ namespace MyASPMVC
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+          // test 
+            routes.MapRoute(
+                name: "hello",
+                url: "thindeptrai/{a}",
+                defaults: new { controller = "Home", action = "Contact" }
+            );
 
             routes.MapRoute(
                 name: "Default",
