@@ -21,7 +21,7 @@ namespace MyASPMVC.Controllers
             thu1.Name1 = "ten1";
             thu1.Phone = "1234";
             thu2.id = "ten2";
-            thu2.ten = "ten 33";
+            thu2.ten = "ten 55";
             ViewBag.Message = "Your application description page.";
 
             return View(thu1);
